@@ -1,0 +1,32 @@
+{
+  "name": "ewindcreek",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fomantic-ui": "^2.9.3",
+    "html": "^1.0.0",
+    "http-errors": "^2.0.0",
+    "jquery": "^3.7.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.2",
+    "morgan": "^1.10.0",
+    "pokersolver": "^2.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "description": "## Due Last day of Class ## First report due Mon Oct 23 2023",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC"
+}

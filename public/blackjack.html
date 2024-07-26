@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title></title>
+    <script src="/js/blackjack.js"></script>
+    <link rel="stylesheet" href="/css/blackjack.css">
+</head>
+<body>
+    <div class="table">
+        <div class="game">
+            <div class="cardgame">
+                <div class="player">
+                    <h2>Player</h2>
+                    <p id="pscore">Score: 0</p>
+                    <p id="pcards">Cards:</p><img id="prec" src="" alt="" />
+                    <div class="controls"><button id="hit">Hit</button><button id="stay">Stay</button></div>
+                </div>
+                <div class="cards"> <img src="https://deckofcardsapi.com/static/img/back.png" alt="random card design" />
+                    <p id="currstand"></p>
+                </div>
+                <div class="dealer">
+                    <h2>Dealer</h2>
+                    <p id="dscore">Score: 0</p>
+                    <p id="dcards">Cards: </p><img id="drec" src="" alt="" /></div>
+            </div>
+        </div>
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <h1>Welcome to Blackjack!</h1>
+                <p id="results"></p>
+                <h2>Are you ready to play?</h2>
+                <button id="close">Place Bet</button>
+                <button id="return">Return to Casino</button>
+            </div>
+        </div>
+        <div class="modal" id="bet">
+            <div class="modal-content">
+                <h2>How much would you like to bet on this game</h1>
+                <p id="startBal">Your current balance is: </p>
+                <div><input id="amountBet" type="number" placeholder="Enter the amount you wish to bet..." min="1"></input></div>
+                <button id="betPlaced">Deal</button>
+            </div>
+        </div>
+        <div class="modal" id="endModal">
+            <div class="modal-content">
+                <h1>The game is over</h1>
+                <h2 id="endres"></h2>
+                <p id="updtRes"> </p>
+                <button id="again">Play Again?</button>
+                <button id="return2">Return to Casino</button>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Administrative page</title>
+    <script src="/js/index.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="page" id="adminPage">
+    <a href="home.html" id="backButton">Back</a>
+    <!--https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces-->
+    <h1>Admin Interface</h1>
+    <div id="tblContainer"></div>
+    <div id="editArea">
+        <h1>Edit user:</h1>
+        <label>Username:</label>
+        <input type="text" id="editUserName">
+        <label>Balance:</label>
+        <input type="text" id="editBalance">
+        <label>Is Admin:</label>
+        <input type="checkbox" id="isAdmin">
+        <input type="submit" value="Finish" id="finishEdit">
+        <input type="submit" value="Cancel" id="cancelEdit">
+        <p id="edittingerrorMess"></p>
+    </div>
+</body>

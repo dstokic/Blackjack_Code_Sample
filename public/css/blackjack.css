@@ -1,0 +1,147 @@
+.table {
+    background-color: #00512c;
+    color: white;
+    border-radius: 0.75rem;
+    padding: 3rem;
+    height: 88vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.cards p {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.cardgame {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 1rem .5rem;
+    margin: 1rem;
+    width: 9rem;
+
+    text-decoration: none;
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.dealer {
+    background-color: #206345;
+    padding: 2rem;
+    margin: 2rem;
+    width: 30rem;
+}
+
+.player {
+    background-color: #206345;
+    padding: 2rem;
+    margin: 2rem;
+    width: 30rem;
+}
+
+#results {
+    font-size: 1.5rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: -3em;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #206345;
+
+    margin: 3rem auto;
+    padding: 10em;
+
+    width: 85%;
+    height: 90%;
+}
+
+.modal-content h1 {
+    font-size: 5em;
+}
+
+.modal-content h2 {
+    font-size: 2em;
+}
+
+#amountBet {
+    width: 40em;
+    height: 2.5em;
+}
+
+#return,
+#return2 {
+    background-color: white;
+    color: #206345;
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 30%;
+    height: 3rem;
+
+    margin: auto;
+    margin-top: -5em;
+
+}
+
+#close, 
+#again,
+#betPlaced {
+    background-color: white;
+    color: #206345;
+    font-size: 2em;
+    font-weight: bold;
+    width: 60%;
+    height: 6rem;
+
+    margin: auto;
+}
+
+#close:hover,
+#again:hover,
+#return:hover,
+#return2:hover,
+#betPlaced:hover {
+    background-color: #00512c;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

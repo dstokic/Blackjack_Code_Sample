@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+
+<head>
+    <title></title>
+    <script src="pokersolver.js"></script>
+    <script src="/js/poker.js"></script>
+    <link rel="stylesheet" href="/css/poker.css">
+</head>
+
+<body>
+
+    <div id="comPlayerCont"  class="compPlayersContainer">
+        <div id="p1" class="player">
+            <div>Player 1</div>
+            <div id="p1Cards" class="cards"></div>
+            <div id="p1Balance" class="balance">Balance: 100</div>
+            <div id="p1Bet" class="bet">Bet: 0</div>
+        </div>
+
+        <div id="p2" class="player">
+            <div>Player 2</div>
+            <div id="p2Cards" class="cards"></div>
+            <div id="p2Balance" class="balance">Balance: 100</div>
+            <div id="p2Bet" class="bet">Bet: 0</div>
+        </div>
+        
+        <div id="p3" class="player">
+
+            <div>Player 3</div>
+            <div id="p3Cards" class="cards"></div>
+            <div id="p3Balance" class="balance">Balance: 100</div>
+            <div id="p3Bet" class="bet">Bet: 0</div>            
+        </div>
+
+    </div>
+
+    <div id="winner">The Winner Is: </div>
+    <div class="PA">
+        <button id="playAgain">Play Again</button>
+    </div>
+
+    <div class="choiceContainer">
+        <div id="choice">Your Turn!</div>
+    </div>
+
+    <div class="communityCards"> 
+        <div id="cCards" class="cards"></div>
+    </div>
+    <div id="highBet" class="highestBetContainer">
+        <div id="highestBet">Highest Bet:</div>
+    </div>
+
+
+    <div class="playerContainer">
+        <div id= "player" >
+
+            <div id="playerCards" class="cards"></div>
+            <div id="playerBalance" class="balance">Balance: 100</div>
+            <div id="playerBet" class="bet">Bet: 0</div>            
+        </div>
+
+
+    </div>
+    <div id="buttonContainer">
+        <div id="preBetButtons">
+            <button class="button" id="check">Check</button>
+            <button class="button" id="bet">Bet</button>
+            <button class="button" id="fold">Fold</button>
+        </div>
+        <div id="postBetButtons">
+            <button class="button" id="call">Call</button>
+            <button class="button" id="raise">Raise</button>
+            <button class="button" id="fold">Fold</button>
+        </div>
+
+    </div>
+
+    <div class="SB">
+        <button id="startButton">Start Game</button>
+    </div> 
+    <div class="NR">
+        <button id="newRound">New Round</button>
+    </div>
+
+</body>

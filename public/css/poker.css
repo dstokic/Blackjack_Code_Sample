@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #398739;
+    height: 100vh;
+}
+
+.SB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#startButton {
+  font-size: 20px;
+  border: none;
+}
+.NR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#newRound {
+  display: none;
+  font-size: 20px;
+  border: none;
+}
+#playAgain {
+  font-size: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.compPlayersContainer {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start; 
+  margin: 10px;
+}
+
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.cards img{
+  display: inline;
+  height: 150px;
+}
+
+.communityCards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+.playerContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance{
+  font-size: 18px;
+}
+
+.bet{
+  font-size: 15px;
+}
+
+.balance, .bet {
+  text-align: center;
+  width: 100%;
+}
+
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+#highestBet{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.choiceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+
+}
+
+#winner{
+  font-size: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px
+  
+}
+

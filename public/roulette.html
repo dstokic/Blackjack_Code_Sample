@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Roulette</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="css/roulette.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="/css/roulette.css">
+    <script src="js/roulette.js"></script>
+</head>
+
+<body id="roulettepage">
+    <div class="box">
+        <button id="odd">
+            Odd
+        </button>
+        <button id="even">
+            Even
+        </button>
+        <button id="low">
+            Low
+        </button>
+        <button id="high">
+            High
+        </button>
+        <button id="red">
+            Red
+        </button>
+        <button id="black">
+            Black
+        </button>
+        <button id="green">
+            Green
+        </button>
+        <input type="text" id="number" placeholder="Number 0-36" min="0" max="36">
+    </div>
+    <div class="ui modal" id="betmodal">
+        <div class="header">
+            <h1>How much would you like to bet</h1>
+        </div>
+        <div class="content" id="wagermodal">
+            <div class="ui form">
+                <div class="field">
+                    <label>Amount</label>
+                    <input type="text" id="amount" placeholder="Wager">
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui approve button">Approve</div>
+        </div>
+        </div>
+</body>
+<style>
+    .box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Log in and Sign up page</title>
+    <script src="/js/index.js"></script>
+    <link rel="stylesheet" href="/css/loginsignup.css">
+</head>
+<body id="loginsignupPage">
+    <div id="loginsignupContainer">
+        <h1 id="loginWelcome">Welcome</h1>
+        <p id="loginInfo">If you have an account please log in, if not please sign up.</p>
+        <button id="userlogin">Log in</button>
+        <button id="usersignup">Sign up</button>
+    </div>
+    <div id="signUpDiv" style="display: none;">
+        <label>Sign Up</label>
+        <input type="text" id="signUpUsernameInput" placeholder="Username">
+        <input type="password" id="signUpPasswordInput"placeholder="Password">
+        <input type="password" id="signUpPasswordInput1"placeholder="Re-enter Password">
+        <input type="submit" value="Sign Up" id="signupbutton">
+        <input type="submit" value="Go back" id="cancelSignup">
+        <p id="signuperrorMess"></p>
+    </div>
+    <div id="logInDiv" style="display: none;">
+        <label>Log In</label>
+        <input type="text" id="logInUsernameInput" placeholder="Username">
+        <input type="password" id="logInPasswordInput"placeholder="Password">
+        <input type="submit" value="Login" id="loginbutton">
+        <input type="submit" value="Go back" id="cancelLogin">
+        <p id="loginerrorMess"></p>
+    </div>
+</body>

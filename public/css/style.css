@@ -1,0 +1,90 @@
+.page{
+    background-color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-family: inherit;
+}
+
+#gridContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px auto auto auto;
+    grid-template-areas: 
+        "logoPic logoPic logoPic"
+        ". welcome userbal"
+        "blackjackArea rouletteArea pokerArea"
+        ". adminBut ."
+    ;
+    row-gap: 15px;
+    column-gap: 10px;
+    justify-items: center;
+}
+
+#emptyspace{
+    grid-area: spacing;
+    height: 200px;
+}
+
+#editArea{
+    display: none;
+}
+
+#adminButton {
+    grid-area: adminBut;
+    display: none;
+}
+
+a {
+    border: 2px solid;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#logoutButton, #backButton {
+    border: 2px solid black;
+    background-color: honeydew;
+    border-radius: 5px;
+    margin:10px;
+    position: fixed;
+    right: 50px;
+    text-decoration: inherit;
+}
+
+.editButtons , .deleteButtons {
+    font-family: inherit;
+    border: 1px solid black;
+    background-color: honeydew;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+#logo {
+    grid-area: logoPic;
+    content:url("https://upload.wikimedia.org/wikipedia/en/6/69/Wind_Creek_Bethlehem_Logo.png");
+}
+
+#blackjackButton{
+    grid-area: blackjackArea;
+}
+
+#pokerButton{
+    grid-area: pokerArea;
+}
+
+#rouletteButton{
+    grid-area: rouletteArea;
+}
+
+#welcomeMess{
+    grid-area: welcome;
+}
+
+#userBalance{
+    grid-area: userbal;
+}
