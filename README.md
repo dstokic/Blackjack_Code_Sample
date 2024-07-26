@@ -1,7 +1,6 @@
 # Final Project
 
-## Due Last day of Class
-## First report due Mon Oct 23 2023
+## NOTE: There is a semantic folder missing due to the logistics of transfering a GitHub repository
 
 ### Build a web app in a team of 4-5
 
